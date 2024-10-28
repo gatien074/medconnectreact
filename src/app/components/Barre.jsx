@@ -1,13 +1,20 @@
-
-export default function Barre(){
-    return(
-        < >
-        <div className="flex justify-center sm:m-auto">
-           <form className=" flex justify-center sm:w-[782.21px] sm:h-[49.42px] justify-between " action="">
-            <input className="w-[597.25px] h-[49.42px] rounded-[7.06px] bg-[#F9F2F2B2] flex justify-center px-12" type="search" name="" id="" placeholder="Hôpital ou Clinique" />
-            <button className="w-[169.12px] h-[46.59px] rounded-[9.88px] p-[7.06px] gap-[7.06px] bg-[#000000B2]  text-[28.24px ] font-extrabold text-white" type="submit" placeholder="Rechercher" >Rechercher</button>
-           </form>
-           </div>
-        </>
-    )
-}
+export default function Barre() {
+    return (
+      <div className="flex justify-center w-full px-4">
+        <form className="flex flex-col sm:flex-row items-center w-full max-w-3xl gap-3">
+          <input
+            className="w-full sm:w-[70%] h-12 sm:h-[49.42px] text-green-600 rounded-lg bg-[#F9F2F2B2] border border-blue-600 px-4 text-sm placeholder-gray-500"
+            type="search"
+            placeholder="Hôpital ou Clinique"
+          />
+          <button
+            className="w-full sm:w-[30%] h-12 sm:h-[46.59px] rounded-lg bg-[#000000B2]  text-white font-bold text-base sm:text-lg"
+            type="submit"
+          >
+            Rechercher
+          </button>
+        </form>
+      </div>
+    );
+  }
+  
